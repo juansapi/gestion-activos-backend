@@ -15,9 +15,6 @@ CREATE TABLE `activos` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `activos`
---
 
 LOCK TABLES `activos` WRITE;
 /*!40000 ALTER TABLE `activos` DISABLE KEYS */;
@@ -36,9 +33,6 @@ CREATE TABLE `marcas` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `marcas`
---
 
 LOCK TABLES `marcas` WRITE;
 /*!40000 ALTER TABLE `marcas` DISABLE KEYS */;
@@ -66,10 +60,6 @@ CREATE TABLE `movimientos` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `movimientos`
---
-
 LOCK TABLES `movimientos` WRITE;
 /*!40000 ALTER TABLE `movimientos` DISABLE KEYS */;
 INSERT INTO `movimientos` VALUES (1,3032023,'Cali',1,1,1),(2,29032021,'Cali',1,1,1);
@@ -85,10 +75,6 @@ CREATE TABLE `ubicaciones` (
   PRIMARY KEY (`cod_ubicacion`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `ubicaciones`
---
 
 LOCK TABLES `ubicaciones` WRITE;
 /*!40000 ALTER TABLE `ubicaciones` DISABLE KEYS */;

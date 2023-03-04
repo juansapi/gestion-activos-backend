@@ -1,4 +1,4 @@
-Al ejecutar el backend la base de datos de genera sola, sin embargo este es el script 
+Al ejecutar el backend la base de datos de genera sola, sin embargo este es el script y las inserciones
 -------------------------------------------------------------------------------------------------------------------
 DROP TABLE IF EXISTS `activos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
